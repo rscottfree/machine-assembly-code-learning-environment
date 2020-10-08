@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MACLE</title>
+    <meta name="description" content="Machine & Assembly Code Learning Environment">
+    <style>
+        html, body {
+            margin: 0px;
+            padding: 0px;
+            background: black;
+            height: auto;
+            width: auto;
+        }
+        #container {
+            border: 4px solid black;
+        }
+        canvas {
+            border: 4px solid #111;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <!-- <script src="https://twgljs.org/dist/twgl-full.min.js"></script> -->
+    <script src="./lib/pixi.min.js"></script>
+    <script>
+        PIXI.utils.skipHello();
+    </script>
+    <script src="ram.js" type="module"></script>
+    <script src="chars.js" type="module"></script>
+    <script src="cpu-registers.js" type="module"></script>
+    <script src="cpu-functions.js" type="module"></script>
+    <script src="instruction-set.js" type="module"></script>
+    <script src="parser.js" type="module"></script>
+    <script src="cpu.js" type="module"></script>
+    <script src="text-mode-screen.js" type="module"></script>
+    <script src="keyboard.js" type="module"></script>
+    <script src="index.js" type="module"></script>
+
+    <script type="module">
+        import { printMem, registers, suspend, resume } from './index.js';
+        window.printMem = printMem;
+        window.registers = registers;
+        window.suspend = suspend;
+        window.resume = resume;
+    </script>
+</body>
+
+</html>

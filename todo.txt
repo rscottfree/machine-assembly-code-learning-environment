@@ -1,0 +1,20 @@
+Test decimal mode
+refactor ram[] usages
+
+Instructions
+https://www.masswerk.at/6502/6502_instruction_set.html
+https://dwheeler.com/6502/oneelkruns/asm1step.html
+
+
+Stack and interrupts
+https://wiki.nesdev.com/w/index.php/Stack#:~:text=In%20an%20empty%20stack%2C%20the,next%20value%20will%20be%20stored.&text=For%20example%2C%20on%20a%206502,to%20store%20the%20next%20value.
+https://www.c64-wiki.com/wiki/Interrupt
+https://www.c64-wiki.com/wiki/Jiffy_Clock#:~:text=Whereas%20in%20electronics%2C%20a%20jiffy,of%20the%20national%20television%20standard.
+https://www.lemon64.com/forum/viewtopic.php?t=8596&sid=338c0d8f665892d3f7089f5f6c52122e
+https://dustlayer.com/c64-coding-tutorials/2013/4/8/episode-2-3-did-i-interrupt-you
+
+Interrupts
+https://www.pagetable.com/?p=410
+http://www.6502.org/tutorials/register_preservation.html
+http://www.6502.org/tutorials/interrupts.html#1.3
+
